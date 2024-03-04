@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Trang Thi</title>
+    <link rel="stylesheet" href="styleExam.css" />
+    <script src="scriptExam.js"></script>
+  </head>
+
+  <body>
+    <header>
+      <h1>Thi Thử Trực Tuyến</h1>
+    </header>
+    <main>
+      <div id="timer">Thời gian còn lại: <span id="countdown">60:00</span></div>
+      <div id="questionsContainer">
+        <div class="question">
+          <h4>
+            Câu 1: Luật Tổ chức chính quyền địa phương sửa đổi 2019. (Chọn đúng
+            hoặc sai)
+          </h4>
+          <label><input type="radio" name="group1" value="true" /> Đúng</label
+          ><br />
+          <label><input type="radio" name="group1" value="false" /> Sai</label>
+        </div>
+
+        <div class="question">
+          <h4>
+            Câu 2: Theo Nghị định 45/2020/NĐ-CP; 8/4/2020. Hồ sơ điện tử thực
+            hiện thủ tục hành chính là gì?
+          </h4>
+          <label><input type="radio" name="group2" value="A" /> 35</label><br />
+          <label><input type="radio" name="group2" value="B" /> 42</label><br />
+          <label><input type="radio" name="group2" value="C" /> 49</label><br />
+          <label><input type="radio" name="group2" value="D" /> 56</label>
+        </div>
+
+        <div class="question">
+          <h4>Câu 3: Những hành tinh thuộc Hệ Mặt Trời nào?</h4>
+          <label
+            ><input type="checkbox" name="group3" value="A" /> Trái Đất</label
+          ><br />
+          <label
+            ><input type="checkbox" name="group3" value="B" /> Sao Hỏa</label
+          ><br />
+          <label
+            ><input type="checkbox" name="group3" value="C" /> Sao Mộc</label
+          ><br />
+          <label
+            ><input type="checkbox" name="group3" value="D" /> Sao Thổ</label
+          >
+        </div>
+
+        <div class="question">
+          <h4>Câu 4: Kể tên các nước gia nhập WHO từ năm 1997.</h4>
+          <textarea name="group4" rows="4" cols="50"></textarea>
+        </div>
+        <div class="question">
+          <h4>
+            Câu 5: Luật Tổ chức chính quyền địa phương sửa đổi 2019. (Chọn đúng
+            hoặc sai)
+          </h4>
+          <label><input type="radio" name="group1" value="true" /> Đúng</label
+          ><br />
+          <label><input type="radio" name="group1" value="false" /> Sai</label>
+        </div>
+
+        <div class="question">
+          <h4>
+            Câu 6: Theo Nghị định 45/2020/NĐ-CP; 8/4/2020. Hồ sơ điện tử thực
+            hiện thủ tục hành chính là gì?
+          </h4>
+          <label><input type="radio" name="group2" value="A" /> 35</label><br />
+          <label><input type="radio" name="group2" value="B" /> 42</label><br />
+          <label><input type="radio" name="group2" value="C" /> 49</label><br />
+          <label><input type="radio" name="group2" value="D" /> 56</label>
+        </div>
+
+        <div class="question">
+          <h4>Câu 7: Những hành tinh thuộc Hệ Mặt Trời nào?</h4>
+          <label
+            ><input type="checkbox" name="group3" value="A" /> Trái Đất</label
+          ><br />
+          <label
+            ><input type="checkbox" name="group3" value="B" /> Sao Hỏa</label
+          ><br />
+          <label
+            ><input type="checkbox" name="group3" value="C" /> Sao Mộc</label
+          ><br />
+          <label
+            ><input type="checkbox" name="group3" value="D" /> Sao Thổ</label
+          >
+        </div>
+
+        <div class="question">
+          <h4>Câu 8: Kể tên các nước gia nhập WHO từ năm 1997.</h4>
+          <textarea name="group4" rows="4" cols="50"></textarea>
+        </div>
+        <div class="question">
+          <h4>
+            Câu 9: Luật Tổ chức chính quyền địa phương sửa đổi 2019. (Chọn đúng
+            hoặc sai)
+          </h4>
+          <label><input type="radio" name="group1" value="true" /> Đúng</label
+          ><br />
+          <label><input type="radio" name="group1" value="false" /> Sai</label>
+        </div>
+
+        <div class="question">
+          <h4>
+            Câu 10: Theo Nghị định 45/2020/NĐ-CP; 8/4/2020. Hồ sơ điện tử thực
+            hiện thủ tục hành chính là gì?
+          </h4>
+          <label><input type="radio" name="group2" value="A" /> 35</label><br />
+          <label><input type="radio" name="group2" value="B" /> 42</label><br />
+          <label><input type="radio" name="group2" value="C" /> 49</label><br />
+          <label><input type="radio" name="group2" value="D" /> 56</label>
+        </div>
+
+        <div class="question">
+          <h4>Câu 11: Những hành tinh thuộc Hệ Mặt Trời nào?</h4>
+          <label
+            ><input type="checkbox" name="group3" value="A" /> Trái Đất</label
+          ><br />
+          <label
+            ><input type="checkbox" name="group3" value="B" /> Sao Hỏa</label
+          ><br />
+          <label
+            ><input type="checkbox" name="group3" value="C" /> Sao Mộc</label
+          ><br />
+          <label
+            ><input type="checkbox" name="group3" value="D" /> Sao Thổ</label
+          >
+        </div>
+
+        <div class="question">
+          <h4>Câu 12: Kể tên các nước gia nhập WHO từ năm 1997.</h4>
+          <textarea name="group4" rows="4" cols="50"></textarea>
+        </div>
+        <div class="question">
+          <h4>
+            Câu 13: Luật Tổ chức chính quyền địa phương sửa đổi 2019. (Chọn đúng
+            hoặc sai)
+          </h4>
+          <label><input type="radio" name="group1" value="true" /> Đúng</label
+          ><br />
+          <label><input type="radio" name="group1" value="false" /> Sai</label>
+        </div>
+
+        <div class="question">
+          <h4>
+            Câu 14: Theo Nghị định 45/2020/NĐ-CP; 8/4/2020. Hồ sơ điện tử thực
+            hiện thủ tục hành chính là gì?
+          </h4>
+          <label><input type="radio" name="group2" value="A" /> 35</label><br />
+          <label><input type="radio" name="group2" value="B" /> 42</label><br />
+          <label><input type="radio" name="group2" value="C" /> 49</label><br />
+          <label><input type="radio" name="group2" value="D" /> 56</label>
+        </div>
+
+        <div class="question">
+          <h4>Câu 15: Những hành tinh thuộc Hệ Mặt Trời nào?</h4>
+          <label
+            ><input type="checkbox" name="group3" value="A" /> Trái Đất</label
+          ><br />
+          <label
+            ><input type="checkbox" name="group3" value="B" /> Sao Hỏa</label
+          ><br />
+          <label
+            ><input type="checkbox" name="group3" value="C" /> Sao Mộc</label
+          ><br />
+          <label
+            ><input type="checkbox" name="group3" value="D" /> Sao Thổ</label
+          >
+        </div>
+
+        <div class="question">
+          <h4>Câu 16: Kể tên các nước gia nhập WHO từ năm 1997.</h4>
+          <textarea name="group4" rows="4" cols="50"></textarea>
+        </div>
+        <div class="question">
+          <h4>
+            Câu 17: Luật Tổ chức chính quyền địa phương sửa đổi 2019. (Chọn đúng
+            hoặc sai)
+          </h4>
+          <label><input type="radio" name="group1" value="true" /> Đúng</label
+          ><br />
+          <label><input type="radio" name="group1" value="false" /> Sai</label>
+        </div>
+
+        <div class="question">
+          <h4>
+            Câu 18: Theo Nghị định 45/2020/NĐ-CP; 8/4/2020. Hồ sơ điện tử thực
+            hiện thủ tục hành chính là gì?
+          </h4>
+          <label><input type="radio" name="group2" value="A" /> 35</label><br />
+          <label><input type="radio" name="group2" value="B" /> 42</label><br />
+          <label><input type="radio" name="group2" value="C" /> 49</label><br />
+          <label><input type="radio" name="group2" value="D" /> 56</label>
+        </div>
+
+        <div class="question">
+          <h4>Câu 19: Những hành tinh thuộc Hệ Mặt Trời nào?</h4>
+          <label
+            ><input type="checkbox" name="group3" value="A" /> Trái Đất</label
+          ><br />
+          <label
+            ><input type="checkbox" name="group3" value="B" /> Sao Hỏa</label
+          ><br />
+          <label
+            ><input type="checkbox" name="group3" value="C" /> Sao Mộc</label
+          ><br />
+          <label
+            ><input type="checkbox" name="group3" value="D" /> Sao Thổ</label
+          >
+        </div>
+
+        <div class="question">
+          <h4>Câu 20: Kể tên các nước gia nhập WHO từ năm 1997.</h4>
+          <textarea name="group4" rows="4" cols="50"></textarea>
+        </div>
+        <div class="question">
+          <h4>
+            Câu 21: Luật Tổ chức chính quyền địa phương sửa đổi 2019. (Chọn đúng
+            hoặc sai)
+          </h4>
+          <label><input type="radio" name="group1" value="true" /> Đúng</label
+          ><br />
+          <label><input type="radio" name="group1" value="false" /> Sai</label>
+        </div>
+
+        <div class="question">
+          <h4>
+            Câu 22: Theo Nghị định 45/2020/NĐ-CP; 8/4/2020. Hồ sơ điện tử thực
+            hiện thủ tục hành chính là gì?
+          </h4>
+          <label><input type="radio" name="group2" value="A" /> 35</label><br />
+          <label><input type="radio" name="group2" value="B" /> 42</label><br />
+          <label><input type="radio" name="group2" value="C" /> 49</label><br />
+          <label><input type="radio" name="group2" value="D" /> 56</label>
+        </div>
+
+        <div class="question">
+          <h4>Câu 23: Những hành tinh thuộc Hệ Mặt Trời nào?</h4>
+          <label
+            ><input type="checkbox" name="group3" value="A" /> Trái Đất</label
+          ><br />
+          <label
+            ><input type="checkbox" name="group3" value="B" /> Sao Hỏa</label
+          ><br />
+          <label
+            ><input type="checkbox" name="group3" value="C" /> Sao Mộc</label
+          ><br />
+          <label
+            ><input type="checkbox" name="group3" value="D" /> Sao Thổ</label
+          >
+        </div>
+
+        <div class="question">
+          <h4>Câu 24: Kể tên các nước gia nhập WHO từ năm 1997.</h4>
+          <textarea name="group4" rows="4" cols="50"></textarea>
+        </div>
+        <div class="question">
+          <h4>
+            Câu 25: Luật Tổ chức chính quyền địa phương sửa đổi 2019. (Chọn đúng
+            hoặc sai)
+          </h4>
+          <label><input type="radio" name="group1" value="true" /> Đúng</label
+          ><br />
+          <label><input type="radio" name="group1" value="false" /> Sai</label>
+        </div>
+
+        <div class="question">
+          <h4>
+            Câu 26: Theo Nghị định 45/2020/NĐ-CP; 8/4/2020. Hồ sơ điện tử thực
+            hiện thủ tục hành chính là gì?
+          </h4>
+          <label><input type="radio" name="group2" value="A" /> 35</label><br />
+          <label><input type="radio" name="group2" value="B" /> 42</label><br />
+          <label><input type="radio" name="group2" value="C" /> 49</label><br />
+          <label><input type="radio" name="group2" value="D" /> 56</label>
+        </div>
+
+        <div class="question">
+          <h4>Câu 27: Những hành tinh thuộc Hệ Mặt Trời nào?</h4>
+          <label
+            ><input type="checkbox" name="group3" value="A" /> Trái Đất</label
+          ><br />
+          <label
+            ><input type="checkbox" name="group3" value="B" /> Sao Hỏa</label
+          ><br />
+          <label
+            ><input type="checkbox" name="group3" value="C" /> Sao Mộc</label
+          ><br />
+          <label
+            ><input type="checkbox" name="group3" value="D" /> Sao Thổ</label
+          >
+        </div>
+
+        <div class="question">
+          <h4>Câu 28: Kể tên các nước gia nhập WHO từ năm 1997.</h4>
+          <textarea name="group4" rows="4" cols="50"></textarea>
+        </div>
+        <div class="question">
+          <h4>
+            Câu 29: Luật Tổ chức chính quyền địa phương sửa đổi 2019. (Chọn đúng
+            hoặc sai)
+          </h4>
+          <label><input type="radio" name="group1" value="true" /> Đúng</label
+          ><br />
+          <label><input type="radio" name="group1" value="false" /> Sai</label>
+        </div>
+
+        <div class="question">
+          <h4>
+            Câu 30: Theo Nghị định 45/2020/NĐ-CP; 8/4/2020. Hồ sơ điện tử thực
+            hiện thủ tục hành chính là gì?
+          </h4>
+          <label><input type="radio" name="group2" value="A" /> 35</label><br />
+          <label><input type="radio" name="group2" value="B" /> 42</label><br />
+          <label><input type="radio" name="group2" value="C" /> 49</label><br />
+          <label><input type="radio" name="group2" value="D" /> 56</label>
+        </div>
+
+        <div class="question">
+          <h4>Câu 31: Những hành tinh thuộc Hệ Mặt Trời nào?</h4>
+          <label
+            ><input type="checkbox" name="group3" value="A" /> Trái Đất</label
+          ><br />
+          <label
+            ><input type="checkbox" name="group3" value="B" /> Sao Hỏa</label
+          ><br />
+          <label
+            ><input type="checkbox" name="group3" value="C" /> Sao Mộc</label
+          ><br />
+          <label
+            ><input type="checkbox" name="group3" value="D" /> Sao Thổ</label
+          >
+        </div>
+
+        <div class="question">
+          <h4>Câu 32: Kể tên các nước gia nhập WHO từ năm 1997.</h4>
+          <textarea name="group4" rows="4" cols="50"></textarea>
+        </div>
+        <div class="question">
+          <h4>
+            Câu 33: Luật Tổ chức chính quyền địa phương sửa đổi 2019. (Chọn đúng
+            hoặc sai)
+          </h4>
+          <label><input type="radio" name="group1" value="true" /> Đúng</label
+          ><br />
+          <label><input type="radio" name="group1" value="false" /> Sai</label>
+        </div>
+
+        <div class="question">
+          <h4>
+            Câu 34: Theo Nghị định 45/2020/NĐ-CP; 8/4/2020. Hồ sơ điện tử thực
+            hiện thủ tục hành chính là gì?
+          </h4>
+          <label><input type="radio" name="group2" value="A" /> 35</label><br />
+          <label><input type="radio" name="group2" value="B" /> 42</label><br />
+          <label><input type="radio" name="group2" value="C" /> 49</label><br />
+          <label><input type="radio" name="group2" value="D" /> 56</label>
+        </div>
+
+        <div class="question">
+          <h4>Câu 35: Những hành tinh thuộc Hệ Mặt Trời nào?</h4>
+          <label
+            ><input type="checkbox" name="group3" value="A" /> Trái Đất</label
+          ><br />
+          <label
+            ><input type="checkbox" name="group3" value="B" /> Sao Hỏa</label
+          ><br />
+          <label
+            ><input type="checkbox" name="group3" value="C" /> Sao Mộc</label
+          ><br />
+          <label
+            ><input type="checkbox" name="group3" value="D" /> Sao Thổ</label
+          >
+        </div>
+
+        <div class="question">
+          <h4>Câu 36: Kể tên các nước gia nhập WHO từ năm 1997.</h4>
+          <textarea name="group4" rows="4" cols="50"></textarea>
+        </div>
+        <div class="question">
+          <h4>
+            Câu 37: Luật Tổ chức chính quyền địa phương sửa đổi 2019. (Chọn đúng
+            hoặc sai)
+          </h4>
+          <label><input type="radio" name="group1" value="true" /> Đúng</label
+          ><br />
+          <label><input type="radio" name="group1" value="false" /> Sai</label>
+        </div>
+
+        <div class="question">
+          <h4>
+            Câu 38: Theo Nghị định 45/2020/NĐ-CP; 8/4/2020. Hồ sơ điện tử thực
+            hiện thủ tục hành chính là gì?
+          </h4>
+          <label><input type="radio" name="group2" value="A" /> 35</label><br />
+          <label><input type="radio" name="group2" value="B" /> 42</label><br />
+          <label><input type="radio" name="group2" value="C" /> 49</label><br />
+          <label><input type="radio" name="group2" value="D" /> 56</label>
+        </div>
+
+        <div class="question">
+          <h4>Câu 39: Những hành tinh thuộc Hệ Mặt Trời nào?</h4>
+          <label
+            ><input type="checkbox" name="group3" value="A" /> Trái Đất</label
+          ><br />
+          <label
+            ><input type="checkbox" name="group3" value="B" /> Sao Hỏa</label
+          ><br />
+          <label
+            ><input type="checkbox" name="group3" value="C" /> Sao Mộc</label
+          ><br />
+          <label
+            ><input type="checkbox" name="group3" value="D" /> Sao Thổ</label
+          >
+        </div>
+
+        <div class="question">
+          <h4>Câu 40: Kể tên các nước gia nhập WHO từ năm 1997.</h4>
+          <textarea name="group4" rows="4" cols="50"></textarea>
+        </div>
+      </div>
+
+      <button id="submit-btn" onclick="submitQuiz()">Nộp bài</button>
+
+      <div id="result"></div>
+
+      <div style="display: flex">
+        <div id="result-btn-container">
+          <button id="result-btn" onclick="viewResult()" href="result.html">
+            Xem Kết Quả
+          </button>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>

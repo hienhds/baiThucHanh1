@@ -1,0 +1,74 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f5f5f5;
+    color: #333;
+    text-align: center;
+}
+
+header {
+    background-color: #bb2019;
+    color: #fff;
+    padding: 10px;
+}
+
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#result-info {
+    margin-bottom: 20px;
+}
+
+#answers-container {
+    text-align: left;
+}
+
+.answer {
+    margin-bottom: 10px;
+}
+
+.correct {
+    color: green;
+    font-weight: bold;
+}
+
+.incorrect {
+    color: red;
+    font-weight: bold;
+}
+
+#back-to-index {
+    text-align: center;
+    margin-top: 20px; /* Adjust margin as needed */
+  }
+  
+  #back-to-index button {
+    padding: 10px;
+    background-color: #bb2019;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  #back-to-index button:hover {
+    background-color: darkred;
+  }
+
+  .incorrect-answer {
+    color: red;
+  }
+
+  .result-label {
+    color: #0070cc; /* Màu xanh dương cho nhãn */
+    font-weight: bold; /* Chữ đậm cho nhãn */
+    margin-right: 5px; /* Khoảng cách tùy chọn giữa nhãn và giá trị */
+}
+
+.result-value {
+    color: #0070cc; /* Màu xanh dương cho giá trị */
+    font-weight: bold; /* Chữ đậm cho giá trị */
+}
